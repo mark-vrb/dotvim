@@ -3,5 +3,5 @@ My vim configuration
 
 ## Setup new vim environment
 <code>
-git clone http://github.com/username/dotvim.git ~/.vim
+git clone http://github.com/mark-vrb/dotvim.git ~/.vim
 </code>
