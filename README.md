@@ -4,6 +4,7 @@ My Vim configuration.
 ## Setup new vim environment
 ```
 git clone https://github.com/mark-vrb/dotvim.git ~/.vim
+cd ~/.vim
 git submodule update --init
 ```
 
