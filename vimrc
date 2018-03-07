@@ -25,11 +25,13 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 
+" Theme config
+colorscheme deus
+
 " Plugins config
 
 " airline plugin configuration
-let g:airline_theme='solarized'
-let g:airline_solarized_bg='dark'
+let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
