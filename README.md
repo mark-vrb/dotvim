@@ -1,5 +1,14 @@
 # dotvim
-My Vim configuration.
+My Vim configuration. Work In Progress...
+
+## TODO
+* setup fzf to use ag as a search tool (in order to respect .gitignore) OR git search?
+* add [ale](https://github.com/w0rp/ale) as a lint tool
+* configure lang plugins, make them work with ale:
+  * [Elm](https://github.com/ElmCast/elm-vim)
+  * [Go](https://github.com/fatih/vim-go)
+  * [TypeScript](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support#vim) + Angular
+  * JavaScript
 
 ## Initial steps
 
