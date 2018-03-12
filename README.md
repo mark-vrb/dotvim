@@ -1,6 +1,13 @@
 # dotvim
 My Vim configuration.
 
+## Initial steps
+
+Make sure to perform following steps before setup:
+* Vim itself is installed (gui is not supported yet)
+* fzf executable: [readme](https://github.com/junegunn/fzf#installation)
+* ag (the_silver_searcher): [readme](https://github.com/ggreer/the_silver_searcher#installing)
+
 ## Setup new vim environment
 ```
 git clone https://github.com/mark-vrb/dotvim.git ~/.vim
@@ -27,4 +34,3 @@ git pull origin master
 
 ## License
 Copyright &copy; Mark Varabyou. Terms are the same as Vim itself.
-
