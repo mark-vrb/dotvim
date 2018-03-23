@@ -4,12 +4,18 @@ execute pathogen#infect()
 
 syntax on
 set number
-set background=dark
+set background=light
 set t_Co=256
 
 filetype on
 filetype plugin on
 filetype plugin indent on
+
+if has('gui_running')
+  set guifont=Hack:h12
+  set guioptions-=T
+  set guioptions-=m
+endif
 
 " intendation
 set expandtab       " use spaces instead of tabs
@@ -26,12 +32,11 @@ map gp :bp<cr>
 map gd :bd<cr>
 
 " Theme config
-colorscheme deus
+colorscheme PaperColor
 
 " Plugins config
 
 " airline plugin configuration
-let g:airline_theme='deus'
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 

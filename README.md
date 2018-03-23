@@ -31,6 +31,7 @@ git clone https://github.com/mark-vrb/dotvim.git ~/.vim
 cd ~/.vim
 git submodule update --init
 ```
+NOTE: on Windows simply use `~/vimfiles` instead of `~/.vim`
 
 ## Add new plugin
 ```

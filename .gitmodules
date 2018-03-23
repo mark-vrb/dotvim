@@ -19,3 +19,6 @@
 [submodule "bundle/vim-deus"]
 	path = bundle/vim-deus
 	url = https://github.com/ajmwagar/vim-deus.git
+[submodule "bundle/papercolor-theme"]
+	path = bundle/papercolor-theme
+	url = http://github.com/NLKNguyen/papercolor-theme.git
