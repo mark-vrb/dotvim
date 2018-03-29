@@ -26,17 +26,18 @@ set softtabstop=2   " in insert mode, tabs are 4 spaces
 
 set autoread
 
-" Key mapping
+" Key mapping:
+" enable switching between buffers via g+..k
 map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 
 " Theme config
 colorscheme PaperColor
+let g:airline_theme='papercolor'
 
-" Plugins config
-
-" airline plugin configuration
-" let g:airline_powerline_fonts = 1
+" Enable powerline fonts features in airline
+let g:airline_powerline_fonts = 1
+" Enable airline tabline on the top
 let g:airline#extensions#tabline#enabled = 1
 
